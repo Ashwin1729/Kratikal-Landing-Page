@@ -1,0 +1,12 @@
+.header {
+  margin: 20px;
+  padding: 20px 40px 0px 40px;
+  /* margin-left: 50px; */
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.header img {
+  height: 15%;
+  width: 15%;
+}

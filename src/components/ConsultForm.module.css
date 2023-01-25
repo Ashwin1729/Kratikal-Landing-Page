@@ -1,0 +1,39 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.form_heading {
+  font-weight: bold;
+  text-align: left;
+  font-size: large;
+}
+
+.form_heading > span {
+  color: #e95f22;
+}
+
+.form_field {
+  margin: 20px 0px;
+}
+
+.submit_button {
+  background-color: rgb(226, 51, 80);
+  color: white;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 15px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit_button:hover {
+  opacity: 0.8;
+}
