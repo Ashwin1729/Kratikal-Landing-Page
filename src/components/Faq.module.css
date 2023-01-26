@@ -1,0 +1,53 @@
+.faq_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+.faq_container > h2 {
+  margin-bottom: 40px;
+}
+
+.faq_dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  cursor: pointer;
+}
+
+.faq_container h4 {
+  text-align: center;
+}
+
+.faq_dropdown > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.heading > img {
+  height: 2%;
+  width: 2%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.data > div {
+  padding: 10px;
+}
