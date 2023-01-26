@@ -46,6 +46,7 @@
   flex-direction: column;
   padding: 20px;
   background-color: #f4f4f4;
+  line-height: 1.8;
 }
 
 .data > div {

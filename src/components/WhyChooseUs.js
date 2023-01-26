@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./WhyChooseUs.module.css";
 import whychooseus from "../assets/WhyChooseUs.webp";
 import check from "../assets/check.png";
-import call from "../assets/call3.png";
 
 const WhyChooseUs = () => {
   return (
@@ -19,19 +18,21 @@ const WhyChooseUs = () => {
             </div>
             <div>
               <img src={check} alt="greenCheckIcon" />
-              <p>Creating Compliance Policies and IT Security Strategies</p>
+              <p>
+                Sound record of delivering excellent cyber security solutions
+              </p>
             </div>
             <div>
               <img src={check} alt="greenCheckIcon" />
-              <p>Creating Compliance Policies and IT Security Strategies</p>
+              <p>Precise Gap Analysis by our expert Pentesters</p>
             </div>
             <div>
               <img src={check} alt="greenCheckIcon" />
-              <p>Creating Compliance Policies and IT Security Strategies</p>
+              <p>Thorough Security Assessment</p>
             </div>
             <div>
               <img src={check} alt="greenCheckIcon" />
-              <p>Creating Compliance Policies and IT Security Strategies</p>
+              <p>Safehuard of people, processes, and technologies</p>
             </div>
           </div>
         </div>
@@ -41,7 +42,6 @@ const WhyChooseUs = () => {
       </div>
       <div className={styles.footer}>
         <button>
-          <img src={call} alt="callIcon" />
           <h4>Book a Call</h4>
         </button>
       </div>

@@ -6,6 +6,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Benefits from "./components/Benefits";
 import CodeReview from "./components/CodeReview";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Benefits />
       <CodeReview />
       <Faq />
+      <Footer />
     </div>
   );
 }
